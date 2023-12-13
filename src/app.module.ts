@@ -3,7 +3,7 @@ import { AppController } from './app.controller';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AppService } from './app.service';
 
-import { UrlShorterModule } from './url-shortner/url-shorter.module';
+import { UrlShorterModule } from './modules/url-shorter/url-shorter.module';
 
 @Module({
   imports: [

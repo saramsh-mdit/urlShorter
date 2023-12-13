@@ -5,7 +5,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import {
   UrlShorterModel,
   UrlShorterSchema,
-} from './entities/url-shortner.entity';
+} from './entities/url-shorter.entity';
 
 @Module({
   imports: [

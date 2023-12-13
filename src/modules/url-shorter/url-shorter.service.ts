@@ -3,8 +3,8 @@ import { InjectModel } from '@nestjs/mongoose';
 import { CreateUrlShorterDto } from './dto/create-url-shorter.dto';
 import { UpdateUrlShorterDto } from './dto/update-url-shorter.dto';
 import { Model } from 'mongoose';
-import { UrlShorterModel } from './entities/url-shortner.entity';
-import { generateRandomText } from 'src/utils/random';
+import { UrlShorterModel } from './entities/url-shorter.entity';
+import { generateRandomText } from 'src/utils/string/random';
 
 @Injectable()
 export class UrlShorterService {
