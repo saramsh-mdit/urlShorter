@@ -11,6 +11,9 @@ export class UrlShorterModel {
 
   @Prop()
   hash: string;
+
+  @Prop()
+  name: string;
 }
 
 export const UrlShorterSchema = SchemaFactory.createForClass(UrlShorterModel);
